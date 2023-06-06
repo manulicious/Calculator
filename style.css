@@ -1,0 +1,39 @@
+#calculator{
+    border:2px solid rgba(10,10,10,0.5);
+    background-color: #DAD2D8;
+}
+#outputField{
+    background: linear-gradient(to right, lightgrey, white);
+    padding:20px
+}
+.operator,.key,#cancel,#equals{
+    margin:0px;
+    padding:20px;
+}
+.key:hover{
+    background-color: rgba(40,10,10,0.1)
+}
+.key:active{
+    background-color: rgba(40,10,10,0.3)
+}
+.operator:hover,#equals:hover,#cancel:hover{
+    background-color: rgba(10,10,10,0.1);
+}
+.operator:active,#equals:active,#cancel:active{
+    background-color: rgba(10,10,10,0.3);
+}
+#title{
+    text-align:center;
+    text-shadow: 1px 1px 0 #444;
+}
+table{
+    margin:auto;
+}
+body{
+    background-color: #143642;
+    text-shadow: 0.1px 0.1px 0 #444;
+}
+
+h1{
+    color: #DAD2D8;
+}
